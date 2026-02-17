@@ -1,5 +1,3 @@
-var escribe="";
 function lista() {
-    escribe=escribe+"\n"+document.getElementById("texto").value;
-    document.getElementById("list").innerHTML=escribe;
+    document.getElementById("list").innerHTML+="<li>"+document.getElementById("texto").value+"<li>";
 }
